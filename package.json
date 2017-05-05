@@ -1,0 +1,24 @@
+{
+  "name": "CursoWeb2",
+  "version": "1.0.0",
+  "description": "Ejercicios de HTML",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Casana/CursoWeb.git"
+  },
+  "keywords": [
+    "HTML5",
+    "WEB",
+    "CSS3"
+  ],
+  "author": "Casana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Casana/CursoWeb/issues"
+  },
+  "homepage": "https://github.com/Casana/CursoWeb"
+}
