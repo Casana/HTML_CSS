@@ -1,0 +1,6 @@
+body > ol {list-style-type: decimal-leading-zero;
+width: 30%
+}
+ol>li>ol  {list-style-type: upper-alpha;}
+
+li> ol:nth-child(2n) { background-color:papayawhip}
