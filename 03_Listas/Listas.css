@@ -1,8 +1,10 @@
 body>ol {list-style-type: decimal-leading-zero;
-width: 20%
+width: 40%
 }
 ol>li>ol  {list-style-type: upper-alpha;}
 
 ul>li>ol li:nth-child(2n) { background-color:papayawhip}
 
-ol>li>ul>li:first-child {list-style-image:url("../balon.png")}
+body>ol>li>ul>li {list-style-image:url("../balon.png")}
+
+body>ol>li>ul>li>ol>li {list-style: decimal} 
