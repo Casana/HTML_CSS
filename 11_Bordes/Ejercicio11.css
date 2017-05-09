@@ -1,0 +1,13 @@
+
+
+body {margin: 5% 10%;
+padding: 5% 10%;}
+
+hgroup {text-align: center; 
+font-family: Georgia, 'Times New Roman', Times, serif; 
+background-color: grey;}
+
+div {text-align: center;}
+
+p.lista {border-width:2px ; 
+border-style: dashed;}
