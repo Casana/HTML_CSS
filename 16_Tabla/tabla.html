@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+	
+	<head>
+
+		<!--Selector del conjunto de caracteres-->
+		<meta charset="UTF-8">
+		<!--Título del documento: Accesibilidad y SEO-->
+		<title> Nota de prensa Raymond Chandler </title>
+		<!--Metadatos descriptivos-->		
+		<meta name="author" content="Carlos Martinez" >
+		<meta name="description" content="ejercicio dieciseis de HTML5">
+		<meta name="keywords" content="web, learning, html5, css3">
+		<meta name="generator" content="Visual Studio Code" >
+		<meta name="application-name" content="…">
+		<!--Definición del viewport : RWD y Mobile...-->		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Definición del favicon o icono de la página...-->		
+		<link rel="shortcut icon" href="../fav_icon.png">
+	
+    <style>
+        table {border-radius:8px; border-spacing: 10px; border-collapse: collapse}
+        tr>th {background-color:cadetblue}
+        tr>td {background-color: cornflowerblue}
+        table:hover {border-collapse: separate; border-spacing: 2px;}
+        td:hover {background-color: white}
+   </style>
+    
+    </head>
+
+
+    <body>
+<h1> Ejemplo de tabla completa </h1>
+
+<table border="5">
+   <tr>
+      <th scope="colgroup rowgroup" colspan="2" rowspan="2">Resultados de la encuesta</th>
+      <th scope="colgroup" colspan="3">Edad</th>
+   </tr>
+   <tr>
+      <th>12 a 25</th>
+      <th>26 a 40</th>
+ <th>Más de 40</th>
+   </tr>
+   <tr>
+      <th scope="rowgroup" rowspan="3">¿Cual es tu destino preferido para las vacaciones?</th>
+      <th>Disney-Paris</th>
+      <td>25%</td>
+      <td>50%</td>
+      <td>25%</td>
+   </tr>
+   <tr>
+      <th>El Caribe</th>
+      <td>25%</td>
+      <td>50%</td>
+      <td>25%</td>
+   </tr>
+   <tr>
+      <th>Europa</th>
+      <td>25%</td>
+      <td>50%</td>
+      <td>25%</td>
+   </tr>
+</table>
+    </body>
+</html>
+
