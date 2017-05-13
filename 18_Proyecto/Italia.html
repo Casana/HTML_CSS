@@ -12,7 +12,6 @@
 		<meta name="description" content="ejercicio dieciseis de HTML5">
 		<meta name="keywords" content="web, learning, html5, css3">
 		<meta name="generator" content="Visual Studio Code" >
-		<meta name="application-name" content="…">
 		<!--Definición del viewport : RWD y Mobile...-->		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--Definición del favicon o icono de la página...-->		
@@ -27,28 +26,48 @@
         </header>
         <article class="Imagen">
             <figure>
-                <img src="images/Turismo-en-Italia.jpg" title="Italia, el mejor destino para tus vacaciones" alt="Bellas vistas de Roma">
+                <img src="images/Turismo-en-Italia.jpg" title="Italia, el mejor destino para tus vacaciones" alt="Bellas vistas de Roma" id="Cabecera">
             </figure>
         </article>
 
-        <article class="Datos">
-            <strong> <u> Capital: Roma </u> </strong> </span>
-            <strong> <u>  Población: 60.782.897 hab.</u> </strong> <br>
-            <strong> <u>  Extensión: 301.340 km. </u> </strong> <br>
-            <strong> <u>  idioma: Italiano </u> </strong> <br>
-            <strong> <u>  Moneda: Euro </u> </strong> <br>
-            <strong> <u>  Gobierno: República parlamentaria </u> </strong> <br>
-            <strong> <u> Presidente: Sergio Mattarella </u> </strong> <br>
-            <strong> <u> Huso Horario: CET+1 / en verano CEST+2 </u> </strong> <br>
-            <strong> <u> Dominio internet: .it </u> </strong> <br>
-            <strong> <u> Prefijo telefónico: +39 </u> </strong> <br>
-        </article>
+            <ul id="datos">
+            <li> <span id="Capital"> <strong> <u> Capital: Roma </u> </strong> </li> </span>
+            <li> <span id="Población"> <strong> <u>  Población: 60.782.897 hab.</u> </strong> </li> </span>
+            <li> <span id="Extensión"> <strong> <u>  Extensión: 301.340 km. </u> </strong> </li> </span>
+            <li> <span id="Idioma"><strong> <u>  Idioma: Italiano </u> </strong> </li> </span>
+            <li> <span id="Moneda"><strong> <u>  Moneda: Euro </u> </strong> </li> </span>
+            <li> <span id="Gobierno"><strong> <u>  Gobierno: República parlamentaria </u> </strong> </li> </span>
+            <li> <span id="Presidente"><strong> <u> Presidente: Sergio Mattarella </u> </strong> </li> </span>
+            <li> <span id="Huso Horario"><strong> <u> Huso Horario: CET+1 / en verano CEST+2 </u> </strong> </li> </span>
+            <li> <span id="Dominio internet"><strong> <u> Dominio internet: .it </u> </strong> </li> </span>
+            <li> <span id="Prefijo telefónico"><strong> <u> Prefijo telefónico: +39 </u> </strong> </li> </span>
+            </ul>
         
 
         <section>
         
-        <p> Italia, oficialmente la República Italiana (en italiano: Repubblica Italiana), es un país soberano miembro de la Unión Europea. Es un país bicontinental; su territorio está en Europa del Sur y posee varias islas en el norte de África; su territorio europeo (99,97 %) lo conforman la península itálica, el valle del Po y dos grandes islas en el mar Mediterráneo: Sicilia y Cerdeña, mientras que el territorio africano (0.03 %) lo conforman las islas de Lampedusa, Lampione y Pantelaria. En el norte está bordeado por los Alpes, donde limita con Francia, Suiza, Austria y Eslovenia. Los estados independientes de San Marino y Ciudad del Vaticano son enclaves dentro del territorio italiano. A su vez, Campione d'Italia es un municipio italiano que forma un pequeño enclave en territorio suizo. 
+        <ol>
+            <li> <a href="#introduccion"> Introducción </a> </li>
+            <li> <a href="#clima"> Clima </a> </li>
+            <li> <a href="#recursos"> Recursos Naturales </a> </li>
+            <li> <a href="#florafauna"> Flora y fauna </a> </li>
+
+        </ol>
+
+        <div>
+        <h2 id="introduccion"> Introducción </h2>
+        <p> <strong>Italia </strong> , oficialmente la <strong>República Italiana </strong> (en italiano: Repubblica Italiana), es un país soberano miembro de la <a href="https://europa.eu/european-union/index_es">Unión Europea</a>. 
         </p>
+
+        <figure>
+                <a href="images/map_of_italy.jpg"> <img src="images/map_of_italyp.jpg" title="Península italica, al sur de Europa" alt="Mapa de Italia" class="texto"> </a>
+        </figure>
+
+        <p>
+            Es un país bicontinental; su territorio está en Europa del Sur y posee varias islas en el norte de África; su territorio europeo (99,97 %) lo conforman la península itálica, el valle del Po y dos grandes islas en el mar Mediterráneo: Sicilia y Cerdeña, mientras que el territorio africano (0.03 %) lo conforman las islas de Lampedusa, Lampione y Pantelaria. En el norte está bordeado por los Alpes, donde limita con Francia, Suiza, Austria y Eslovenia. Los estados independientes de San Marino y Ciudad del Vaticano son enclaves dentro del territorio italiano. A su vez, Campione d'Italia es un municipio italiano que forma un pequeño enclave en territorio suizo. 
+        </p>
+
+        
 
         <p> Ha sido el hogar de muchas culturas europeas como la civilización de Nuraga, los etruscos, los griegos y los romanos y también fue la cuna del Humanismo y del Renacimiento, que comenzó en la región de Toscana y pronto se extendió por toda Europa. La capital de Italia, Roma, ha sido durante siglos el centro político y cultural de la civilización occidental. Además, es la ciudad santa para la Iglesia católica, pues dentro de la ciudad se encuentra el microestado del Vaticano. El significado cultural del país se refleja en todos sus Patrimonios de la Humanidad, ya que tiene 51, el país con mayor número del mundo.
         </p>
@@ -59,8 +78,50 @@
         <p> Es el país número 26.º (informe 2016) en materia de alto índice de desarrollo humano por delante de España y República Checa y por detrás de Eslovenia.5 Es miembro fundador de la Unión Europea, firmante del Tratado de Roma en 1957. También es miembro fundador de la Organización del Tratado del Atlántico Norte (OTAN) y miembro de la Organización para la Cooperación y el Desarrollo Económico, de la Organización Mundial del Comercio, del Consejo de Europa y de la Unión Europea Occidental. El país, y especialmente Roma, tiene una fuerte repercusión en temas de política y cultura, en organizaciones mundiales como la Organización para la Agricultura y la Alimentación (FAO),10 el Fondo Internacional de Desarrollo Agrícola (IFAD), el Glocal Forum,11 o el Programa Mundial de Alimentos (WFP)
         </p>
 
+        </div>
+
+        <div>
+
+        <h2 id="clima"> Clima </h2>
+        <p>
+            El clima en Italia es variado, desde un clima frío en las elevaciones de los Apeninos y los Alpes, hasta semitropical en la costa de Liguria.
+            El promedio de temperatura anual gana rangos de 11°C a 19°C; alrededor de 13°C en el valle del Po, 18°C en Sicilia y 14,5°C en las costas bajas. 
+            Las condiciones climáticas en la península se caracteriza por variaciones regionales, resultado de las diferencias entre los sistemas montañosos y la influencia de los vientos de los mares.
+            En las regiones bajas los inviernos son suaves y las temperaturas se modifican por las brisas del Mediterráneo. Sin embargo, en las zonas altas las temperaturas son más frías, aún en las mismas latitudes.
+            En contraste con las condiciones semitropicales, cerca del Golfo de Génova el clima es continental, con veranos cálidos y severos inviernos y con muchas precipitaciones.
+        </p>
+
+        <h2 id="recursos"> Recursos Naturales </h2>
+        <p>
+        Italia posee pocos recursos naturales, el suelo y las condiciones climáticas son adversas para un buen desarrollo de la agricultura.
+        Tiene muy pocos recursos minerales aunque hay algunos yacimientos de gas natural, petróelo, lignito, sulfuro y pirita; otros depósitos incluyen zinc, mercurio, manganeso y bauxita. Muchos de estos se encuentran en las islas de Sicilia y Sardinia.
+        Sin embargo, Italia es rica en varios tipos de piedra para la construcción, posee mármoles de gran calidad y peces de alto valor comercial en las aguas territoriales.
+        </p>
+
+        <h2> Flora y fauna </h2>
+        <p id="florafauna">
+        La flora en las regiones central y bajas es típicamente Mediterránea. Las características de la vegetación es la existencia de olivos, algunas palmas y cítricos. Otras variedades comunes, especialmente en el sur, son la higuera, dátiles, granada, caña de azúcar, almendros y algodón. La vegetación cerca de los Apeninos se asemeja a la de Europa Central.
+        En Italia hay pocas variedades de animales, comparado con otras regiones de Europa; en pequeñas cantidad pueden encontrarse marmotas, cabras montesas. El oso, antes en grandes cantidades, se encuentra actualmente casi en extinción, pero los lobos y los jabalíes pueden encontrarse ún en cantidades considerables en las regiones montañosas. Otro animal común es la zorra.
+        Existen también variedades de aves depredadoras, águilas, buitres, gallinazos y falcones, así como diversas especies de reptiles.
+        </p>
+
+
+        </div>
+
         </section>
-        
+        <a href="#"> Inicio </a>
+    
+    <footer>
+        Autor: Carlos Martinez Casana 
+        <address> Martinez@everis.com <br>
+                C/ Pío Felipe, 12, 28038 Madrid, España
+        </address>
+        <ul>
+            <li><a href="http://www.linkedin.com/">Linkedin</a></li>
+			<li><a href="https://twitter.com/"‎>Twitter</a></li>
+			<li><a href="https://www.facebook.com/">Facebook</a></li>
+        </ul>
+    </footer>
 
     </body>
 </html>
