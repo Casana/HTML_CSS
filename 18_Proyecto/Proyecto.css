@@ -8,7 +8,8 @@ h1 {text-align: center;
     width:85%}
 
 body{margin-left:4%;
-    background-color: burlywood}
+    background-color: burlywood;
+    background-image: "images/ladrillo.png"}
 
 h2{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -35,15 +36,16 @@ ul#datos {border-style: solid;
 
 section {clear:left}
 
-img.texto {float:left; width:200px;}
+img.texto {float:left; width:250px;}
 
-div { width:45%; float: left; margin: 0% 2.5%}
+div { width:45%; float: left; margin: 0% 2%}
 
 p:first-letter {font-size: 200%;}
 
 footer {
-  background-color:cadetblue;
-  position:fixed;
-  bottom: 0;
-  width: 100%;
-  color: white; }
+    border-top: solid 5px black;
+    margin-left: 0%;
+    clear: left;
+    bottom: 0;
+    width: 100%;
+    color: blue; }
