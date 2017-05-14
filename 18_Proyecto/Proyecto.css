@@ -9,7 +9,7 @@ h1 {text-align: center;
 
 body{margin-left:4%;
     background-color: burlywood;
-    background-image: "images/ladrillo.png"}
+    background-image: url(images/marmol.jpg)}
 
 h2{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -26,13 +26,16 @@ img#cabecera{width: 800px;
             height:300px}
 
 ul#datos {border-style: solid;
+    border-radius: 1em;
     background-color:blanchedalmond;
     opacity: 0.7;
     width:25%;
     margin:3%;
     float: right;
     color: darkgreen;
-    list-style-type: none}
+    list-style-type: none;
+    font-weight: bold; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 
 section {clear:left}
 
@@ -41,6 +44,10 @@ img.texto {float:left; width:250px;}
 div { width:45%; float: left; margin: 0% 2%}
 
 p:first-letter {font-size: 200%;}
+
+table { border-collapse: collapse ; border-spacing: 2px }
+
+table:hover {border-collapse: separate; border-spacing: 4px;}
 
 footer {
     border-top: solid 5px black;
