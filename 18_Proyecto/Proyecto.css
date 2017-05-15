@@ -47,7 +47,13 @@ p:first-letter {font-size: 200%;}
 
 table { border-collapse: collapse ; border-spacing: 2px }
 
-table:hover {border-collapse: separate; border-spacing: 4px;}
+table:hover {border-collapse: separate; border-spacing: 6px;}
+
+th {background-color: moccasin}
+
+td {background-color: beige;
+    margin:5em;
+    text-align: center}
 
 footer {
     border-top: solid 5px black;
@@ -55,4 +61,4 @@ footer {
     clear: left;
     bottom: 0;
     width: 100%;
-    color: blue; }
+    color: midnightblue; }
