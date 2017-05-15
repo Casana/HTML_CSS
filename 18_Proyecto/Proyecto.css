@@ -29,8 +29,8 @@ ul#datos {border-style: solid;
     border-radius: 1em;
     background-color:blanchedalmond;
     opacity: 0.7;
-    width:25%;
-    margin:3%;
+    width:26%;
+    margin:2%;
     float: right;
     color: darkgreen;
     list-style-type: none;
@@ -47,13 +47,16 @@ p:first-letter {font-size: 200%;}
 
 table { border-collapse: collapse ; border-spacing: 2px }
 
-table:hover {border-collapse: separate; border-spacing: 6px;}
+table:hover {border-collapse: separate; border-spacing: 3px; font-weight: bold; font-size:120%}
 
 th {background-color: moccasin}
 
 td {background-color: beige;
     margin:5em;
     text-align: center}
+
+aside{clear: left;
+    margin: 10px}
 
 footer {
     border-top: solid 5px black;
