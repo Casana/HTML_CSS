@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+	
+	<head>
+
+		<!--Selector del conjunto de caracteres-->
+		<meta charset="UTF-8">
+		<!--Título del documento: Accesibilidad y SEO-->
+		<title> Formulario de inscripción </title>
+		<!--Metadatos descriptivos-->		
+		<meta name="author" content="Carlos Martinez" >
+		<meta name="description" content="Formulario">
+		<meta name="keywords" content="web, learning, html5, css3">
+		<meta name="generator" content="Visual Studio Code" >
+		<meta name="application-name" content="…">
+		<!--Definición del viewport : RWD y Mobile...-->		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Definición del favicon o icono de la página...-->		
+		<link rel="shortcut icon" href="../fav_icon.png">
+
+	</head>
+
+    <body>
+
+        <form method="get" action="form.html" name="datos">
+
+            <fieldset>
+                <legend> Datos Personales </legend>
+                <p>
+                    <label for="first_name">Nombre</label>
+                    <input type="text" id="first_name"name="fist_name" placeholder="Escribe tu nombre" required>
+                </p>
+
+                <p>
+                    <label for="family_name">Apellido</label>
+                    <input type="text" id="family_name"name="family_name" value="" required>
+                </p>
+
+                <p>
+                    <label for="correo">Email</label>
+                    <input type="email" id="email" name "email" value="@myjourney.com">
+                </p>
+
+                 <p>
+                    <label>Contraseña</label>
+                    <input type="password" name="pswd">
+                </p>
+
+                <p>Elige un horario </p>
+
+                <ul style="list-style-type:none">
+
+                <li><input type="radio" name="horario" value="m"> <label> Mañana </label> </li>
+                <li><input type="radio" name="horario" value="t"> <label> Tarde </label> </li>
+                <li><input type="radio" name="horario" value="n"> <label> Noche </label> </li>
+                
+                </ul>
+
+                <p>
+                    Selecciona un destino laboral:
+                <select name="Pais">
+                        <optgroup label="Europa">
+                        <option value="Spa"> España </option>
+                        <option value="Ger"> Alemania </option>
+                        <option value="Fra"> Francia </option>
+                        </optgroup>
+
+                        <optgroup label="Sudamerica">
+                        <option value="Mex"> Mexico </option>
+                        <option value="Ven"> Venezuela </option>
+                        <option value="Col"> Colombia </option>
+                        <option value="Bra"> Brasil </option>
+                        </optgroup>
+
+                        <optgroup label="Otros">
+                        <option value="Aus"> Australia </option>
+                        <option value="Jap"> Japón </option>
+                        </optgroup>
+                </select>
+                </p>
+
+                <p>
+                <datalist id="ListaSectores">
+                        <option> Civil </option>
+                        <option> Telecomuniaciones </option>
+                        <option> Mecanica </option>
+                        <option> Electronica </option>
+                </datalist>
+
+                <input type="text" name="Sector" list="ListaSectores">
+                </p>
+
+                <label> Danos tu opinión </label>
+                <textarea rows="10" cols="25" name="opinion" maxlength="300"> </textarea>
+
+                <p>
+                    <input type="submit" name="send" value="Enviar">
+                </p>
+
+                <p>
+                    <input type="reset" name="limpiar" value="Borrar todo">
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+            <p>
+            <input type="checkbox" name="Condiciones" value="false" required>
+            <label> He leido y acepto los términos y condiciones de uso. </label>
+            </p>
+            </fieldset>
+
+        </form>
+
+        <form  method="get" action="http://google.com/search" name="google">
+
+            <fieldset>
+                <legend> Buscar </legend>
+                <input type="text" name="q">
+                <p>
+                    <input type="submit" name="send" value="Buscar">
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
