@@ -8,7 +8,7 @@ h2 { text-align: center;
     font-size:2em;
     color:cornflowerblue}
 
-h3 {color:blueviolet}
+h3 {color: darkslategray}
 
 #cabecera {width: 100%; margin:0%; padding:0%}
 
@@ -25,6 +25,10 @@ p#font5 {font-family: 'Unica One', cursive;}
 p#font6 {font-family: 'Love Ya Like A Sister', cursive;}
 p#font7 {font-family: 'Limelight', cursive;}
 p#font8 {font-family: 'Cabin Sketch', cursive;}
+
+footer {position:fixed;
+        bottom: 0px;
+        left:0px}
 
 
 
