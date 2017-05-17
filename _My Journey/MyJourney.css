@@ -1,0 +1,35 @@
+* {box-sizing: border-box}
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Limelight|Love+Ya+Like+A+Sister|PT+Mono|Pacifico|Roboto+Mono|Rock+Salt|Unica+One');
+
+body {background-color: deepskyblue;
+    background-image: url("images/fondo.jpg")}
+
+h2 { text-align: center;
+    font-size:2em;
+    color:cornflowerblue}
+
+h3 {color:blueviolet}
+
+#cabecera {width: 100%; margin:0%; padding:0%}
+
+#a1 {float:left}
+
+#a2 {float:right}
+
+
+p#font1 {font-family: 'Pacifico', cursive;}
+p#font2 {font-family: 'Roboto Mono', monospace;}
+p#font3 {font-family: 'Rock Salt', cursive;}
+p#font4 {font-family: 'PT Mono', monospace;}
+p#font5 {font-family: 'Unica One', cursive;}
+p#font6 {font-family: 'Love Ya Like A Sister', cursive;}
+p#font7 {font-family: 'Limelight', cursive;}
+p#font8 {font-family: 'Cabin Sketch', cursive;}
+
+
+
+
+
+
+
+

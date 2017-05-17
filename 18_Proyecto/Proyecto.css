@@ -50,14 +50,13 @@ section {clear:left}
 
 div.columna { width:45%; float: left; margin: 0% 2%}
 
+p:first-letter {font-size: 200%;}
+
 img.texto1 {float:left; width:250px; margin-right: 10px}
 
 img#texto2 {float:left; width:200px; margin-right: 10px}
 
 #presidente{float:left; margin-left:0px; padding-left:0px; margin: 10px;}
-
-
-p:first-letter {font-size: 200%;}
 
 table { border-collapse: collapse ;}
 
