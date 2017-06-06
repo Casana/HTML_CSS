@@ -1,0 +1,42 @@
+*,
+*::before,
+**::after,
+*:before,
+*after {
+    box-sizing: border-box;
+}
+
+
+/* Para que le aplique box-sizing border-box a todos los elementos de la página */
+
+body {
+    width: 90%;
+    margin: 2em auto;
+}
+
+header {
+    background-color: dodgerblue;
+    color: palegoldenrod
+}
+
+nav {
+    border: 1.5px solid;
+    overflow: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+}
+
+#asides {
+    float: left;
+}
+
+footer {
+    border-top: 1px solid mediumaquamarine
+}
