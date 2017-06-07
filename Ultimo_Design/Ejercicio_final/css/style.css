@@ -1,0 +1,101 @@
+*,
+*::before,
+**::after,
+*:before,
+*after {
+    box-sizing: border-box;
+}
+
+
+/* Para que le aplique box-sizing border-box a todos los elementos de la página */
+
+header {
+    background-color: palegoldenrod;
+    color: forestgreen;
+    text-align: center;
+    padding: 0.2em;
+    margin: 1em;
+}
+
+div#contenido {
+    width: 90%;
+    margin: 2em auto;
+}
+
+nav {
+    border: 1.5px solid;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li ul li:hover {
+    background-color: forestgreen;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 15%;
+    padding-right: 5%;
+}
+
+nav ul li ul {
+    display: none;
+    position: relative;
+    top: 10px;
+    opacity: 30%;
+    border-style: solid;
+}
+
+ul li:hover>ul {
+    display: block;
+}
+
+ul li ul li {
+    background-color: cornflowerblue;
+    display: block;
+    position: absolute;
+    opacity: 0.5;
+    padding-top: 5px;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+div#cuerpo {
+    padding-right: 2%;
+    width: 65%;
+    float: left;
+}
+
+div article {
+    margin-right: 4%;
+    width: 45%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    position: fixed;
+    right: 0px;
+    overflow: auto;
+    padding: 0% 3%;
+}
+
+footer {
+    border-top: 2px solid mediumaquamarine;
+    background-color: palegoldenrod;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer>ul {
+    display: inline-block;
+}

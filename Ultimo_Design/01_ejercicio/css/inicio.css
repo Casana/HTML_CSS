@@ -31,9 +31,21 @@ nav ul {
 nav ul li {
     display: block;
     float: left;
+    padding-right: 6%;
 }
 
-#asides {
+.clear_fix {
+    clear: both;
+}
+
+article {
+    margin-right: 5%;
+    width: 65%;
+    float: left;
+}
+
+aside {
+    width: 30%;
     float: left;
 }
 
