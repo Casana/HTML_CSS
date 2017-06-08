@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -40,7 +40,7 @@
                     <ul class=submenu>
                         <li>Por género</li>
                         <li>Por autor </li>
-                        <li>Por fecha de lanzamiento</li>
+                        <li>Por año de lanzamiento</li>
                     </ul>
                 </li>
                 <li> Contacto
@@ -109,13 +109,22 @@
         <aside>
             <div id="Noticias">
                 <h2> Noticias de hoy</h2>
-                <h3> VW Golf R32, a lo bestia </h3>
+                <h3> Presentación de 'Con la misma piedra' de Miguel Ángel Ariño y Pablo Maella </h3>
 
-                <p> ¿Un VW Golf R32 de 550 CV? Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas
-                    pinzas procedentes del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
+                <p> El pasado miércoles 3 de mayo tuvo lugar la presentación de Con la misma piedra en la Fnac Illa de Barcelona antes más de una treintena de asistentes. El acto contó con la presencia del editor de Empresa Activa Sergio Bulat y con los dos
+                    autores de la obra, Miguel Ángel Ariño y Pablo Maella.</p>
 
-                <p> ¿Un VW Golf R32 de 550 CV? Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas
-                    pinzas procedentes del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
+                <p> Sergio Bulat tomó la palabra y destacó que ésta es la segunda colaboración de los autores, después de Iceberg a la vista, y que su nueva obra es muy ágil, didáctica y va muy al grano. Seguidamente cedió el micro a Pablo Maella, que agradeció
+                    la presencia de los asistentes, y explicó que ambos autores tienen perfiles diferentes pero complementarios, además de ser buenos amigos y coincidir en su afán divulgativo, siempre con rigor.</p>
+
+                <button id="botonmas" onclick="vermas()">Ver Más </button>
+                <div id="divmas" style="display:none">
+
+                    <p> Por su parte, Miguel Ángel Ariño explicó la metodología seguida a la hora de escribir este libro, y posteriormente se proyectó un vídeo con los 10 errores que componen el contenido del mismo. Ariño retomó la palabra para decir que
+                        el error que considera más grave de los expuestos es el de no conocer la realidad. Para Pablo Maella, el error más impactante es el de dar apariencia de racionalidad a algo decidido emocionalmente. El acto acabó con los agradecimientos
+                        de ambos autores. </p>
+
+                </div>
 
             </div>
 
@@ -127,24 +136,41 @@
                 <p> ¿Un VW Golf R32 de 550 CV? Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas
                     pinzas procedentes del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
 
-                <p> ¿Un VW Golf R32 de 550 CV? Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas
-                    pinzas procedentes del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
+                <p> parrafo 2 Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas pinzas procedentes
+                    del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
 
-                <p> ¿Un VW Golf R32 de 550 CV? Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas
-                    pinzas procedentes del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
+                <p> parrafo3 Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas pinzas procedentes
+                    del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
+
+                <p> parrafo4 Sí, es posible. El protagonista de esta 'drag race' es un Golf preparado, que en 800 metros, consigue ponerse a 259,17 km/h. Además de la potencia, la preparación ha incluido un nuevo sistema de de frenada (unas pinzas procedentes
+                    del Audi Rs en la parte delantera, y unas Lamborghini en la trasera).</p>
+
 
             </div>
         </aside>
     </div>
 
 
-
     <footer role="contentinfo">
 
+        <b>Autor: Carlos Martinez Casana </b> <br>
         <address>
-		nuevos_emprendedores@editorial.com
-		</address>
+        &copy; Nuevos Emprendedores SL.  
+		<a href="mailto:nuevos_emprendedores@editorial.com">Nuevos_emprendedores@editorial.com </a> <br>
+		C/ Pío Felipe, 12, 28038 Madrid, España <br>
+        Tel. 91 375 25 00
+        </address>
     </footer>
+
+    <script>
+        function vermas() {
+            var eldiv = document.getElementById("divmas");
+            eldiv.style.display = "block";
+            var boton = document.getElementById("botonmas")
+            boton.style.display = "none"
+        }
+    </script>
+
 </body>
 
 </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disposición de HTML5</title>
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+
+<body>
+    <header>
+        <h1> Barra progreso </h1>
+    </header>
+    <div>
+
+        <div>
+            <p>HTML5</p>
+            <progress id="html5" max="200" value="91"></progress>
+        </div>
+
+        <div>
+            <p>PHP</p>
+            <progress id="php" max="100" value="72"></progress>
+
+        </div>
+
+        <div>
+            <p>CSS</p>
+            <progress id="css" max="100" value="86"></progress>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        window.onload = function() {
+
+            animateprogress("#html5", 91);
+            animateprogress("#php", 72);
+            animateprogress("#css", 86);
+        }
+    </script>
+</body>
+
+</html>
