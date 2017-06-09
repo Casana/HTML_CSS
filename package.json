@@ -13,12 +13,17 @@
   "keywords": [
     "HTML5",
     "WEB",
-    "CSS3"
+    "CSS3",
+    "BOOTSTRAP"
   ],
   "author": "Casana",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Casana/CursoWeb/issues"
   },
-  "homepage": "https://github.com/Casana/CursoWeb"
+  "homepage": "https://github.com/Casana/CursoWeb",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
 }
