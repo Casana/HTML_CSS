@@ -17,19 +17,12 @@
         <header role="banner">
             <h1>Editorial Nuevos Emprendedores</h1>
         </header>
-        <nav>
-            <button class="movil" id="botonmenu" onclick="menudesp()"> <img src="images/boton.png" title="Desplegar menú" alt="Boton despliega menú"> </button>
-            <div id="menumovil">
-                <ul>
-                    <li> Inicio </li>
-                    <li> Novedades </li>
-                    <li> Más vendidos </li>
-                    <li> Catálogo </li>
-                    <li> Contacto </li>
-                </ul>
-            </div>
+        <nav role="navigation">
+            <!-- Elemento de accesibilidad importante: Añadimos el role navigation -->
+            <button class="movil" id="botonmenu" onclick="desplegar()"> <img src="images/boton.png" title="Desplegar menú" alt="Boton despliega menú" role="button"> </button>
+            <!-- Elemento de accesibilidad importante: Añadimos el role button -->
 
-            <ul>
+            <ul id="menu">
                 <li>Inicio</li>
 
                 <li>Novedades
@@ -65,8 +58,10 @@
 
         <div id="cuerpo">
             <article role="article">
+                <!-- Elemento de accesibilidad importante: Añadimos el role article -->
                 <h2>Analisis en profundidad: El libro negro del emprendedor</h2>
-                <img src="images/libro1.jpg" title="Portada del libro" alt="Portada del libro negro del emprendedor">
+                <img src="images/libro1.jpg" title="Portada del libro" alt="Portada del libro negro del emprendedor" role="img">
+                <!-- Elemento de accesibilidad importante: Añadimos el role img y el alt de la imagen describiendola brevemente -->
                 <ol>
                     <li> <b> Título del libro: </b> El libro negro del emprendedor. </li>
                     <li> <b> Autor: </b> Fernando Trías de Bes. </li>
@@ -84,12 +79,14 @@
             </article>
 
             <article role="article">
+                <!-- Elemento de accesibilidad importante: Añadimos el role article -->
                 <h2> Ya está aquí la convocatoria de los 'Premios Narrativa Empresarial IV Edicion'</h2>
 
                 <p>Como cada año, la Editorial Nuevos Emprendedores tiene el orgullo de presentar sus premios <strong>'Narrativa Empresarial del año' </strong>, los cuales reconocen a los que han sido los emprendedores más destacados durante el año 2016
                     en nuestro.
                 </p>
-                <img src="images/article2.jpg" title="Premios Narrativa Empresarial" alt="Premios literarios">
+                <img src="images/article2.jpg" title="Premios Narrativa Empresarial" alt="Premios literarios" role="img">
+                <!-- Elemento de accesibilidad importante: Añadimos el role img y el alt de la imagen describiendola brevemente -->
                 <p>Estas son las condiciones y bases para participar:
                     <ol>
                         <li> Podrán optar al IV Narrativa Empresarial del año , las fábulas, relatos o novelas relacionados con temas empresariales inéditas escritas en castellano y presentadas en formato Word con una extensión mínima de 60.000 caracteres
@@ -108,8 +105,8 @@
                         <li> Para conservar el anonimato de los autores en el proceso de selección de la obra ganadora, a cada novela se le adjudicará un número, de manera que el jurado no conocerá el nombre de los autores. </li>
                         <hr>
 
-                        <li> El jurado del Premio estará compuesto por Alvaro de la Chica, editor de Nuevos Emprendedores , Stefan Catalin, autor de tres libros de Nuevos Emprendedores y especialista en temas de comunicación y escritura, y por Sergio , uno
-                            de los autores españoles más vendidos de narrativa empresarial. </li>
+                        <li> El jurado del Premio estará compuesto por Alvaro de la Chica, editor de Nuevos Emprendedores , Stefan Catalin, autor de tres libros de Nuevos Emprendedores y especialista en temas de comunicación y escritura, y por Sergio López,
+                            uno de los autores españoles más vendidos de narrativa empresarial. </li>
                         <hr>
 
                         <li>El fallo del jurado es inapelable. Se hará público en la página web de Editorial Nuevos Emprendedores durante el mes de diciembre de 2017. </li>
@@ -126,7 +123,8 @@
 
         </div>
 
-        <aside>
+        <aside role="Complementary">
+            <!-- Elemento de accesibilidad importante: Añadimos el role Complementary -->
             <div id="Noticias">
                 <h2> Noticias de hoy</h2>
 
@@ -138,25 +136,28 @@
                 <p> Sergio Bulat tomó la palabra y destacó que ésta es la segunda colaboración de los autores, después de Iceberg a la vista, y que su nueva obra es muy ágil, didáctica y va muy al grano. Seguidamente cedió el micro a Pablo Maella, que agradeció
                     la presencia de los asistentes, y explicó que ambos autores tienen perfiles diferentes pero complementarios, además de ser buenos amigos y coincidir en su afán divulgativo, siempre con rigor.</p>
 
-                <button id="botonmas1" onclick="vermas()">Ver Más </button>
+                <button id="botonmas1" onclick="vermas()" role="button">Ver Más </button>
+                <!-- Elemento de accesibilidad importante: Añadimos el role button -->
                 <div id="divmas1" style="display:none">
 
                     <p> Por su parte, Miguel Ángel Ariño explicó la metodología seguida a la hora de escribir este libro, y posteriormente se proyectó un vídeo con los 10 errores que componen el contenido del mismo. Ariño retomó la palabra para decir que
                         el error que considera más grave de los expuestos es el de no conocer la realidad. Para Pablo Maella, el error más impactante es el de dar apariencia de racionalidad a algo decidido emocionalmente. El acto acabó con los agradecimientos
                         de ambos autores. </p>
 
-                    <img src="images/aside1.jpg" title="Presentación del libro 'Con la misma piedra'" alt="Imagen de los dos autores de la obra">
-
+                    <img src="images/aside1.jpg" title="Presentación del libro 'Con la misma piedra'" alt="Imagen de los dos autores de la obra" role="img">
+                    <!-- Elemento de accesibilidad importante: Añadimos el role img y el alt de la imagen describiendola brevemente -->
                 </div>
 
                 <h3> El 35% de los españoles no lee “nunca o casi nunca” </h3>
 
-                <img src="images/aside2.png" title="CIS: Centro de Investigación Sociologica" alt="Icono del CIS:Centro de Investigación Sociologica ">
+                <img src="images/aside2.png" title="CIS: Centro de Investigación Sociologica" alt="Icono del CIS:Centro de Investigación Sociologica " role="img">
+                <!-- Elemento de accesibilidad importante: Añadimos el role img y el alt de la imagen describiendola brevemente -->
                 <p> Dicen los expertos que el mismo cálculo puede ofrecer interpretaciones incluso opuestas. Desde luego, la regla puede valer para el barómetro publicado hoy por el <a href="http://www.cis.es">Centro de Investigación Sociológica (CIS)</a>,
                     que incluye un largo apartado centrado en los hábitos de lectura de los españoles. Así, en el vaso medio vacío destaca un número: el 35% de los encuestados no lee “casi nunca” o directamente “nunca”. El optimista, en cambio, dirá que
                     el otro 65% lee al menos “alguna vez al trimestre” y que el 29,3% más aficionado de los encuestados lo hace “todos o casi todos los días”. </p>
 
-                <button id="botonmas2" onclick="vermas2()">Ver Más </button>
+                <button id="botonmas2" onclick="vermas2()" role="button">Ver Más </button>
+                <!-- Elemento de accesibilidad importante: Añadimos el role button -->
                 <div id="divmas2" style="display:none">
                     <p>
                         Las estadísticas publicadas hoy reflejan a grandes rasgos el índice de lectura del 63% que ya salió hace dos años del informe Hábitos de lectura y compra de libros publicado por la Federación de Gremios de Editores, así como idéntica es la tendencia que
@@ -249,6 +250,7 @@
 
 
         <footer role="contentinfo">
+            <!-- Elemento de accesibilidad importante: Añadimos el role contentinfo -->
             <address>
         &copy; Nuevos Emprendedores SL.  
 		<a href="mailto:nuevos_emprendedores@editorial.com">nuevos_emprendedores@editorial.com </a> <br> C/ Pío Felipe, 12, 28038 Madrid, España <br> Tel. 91 375 25 00
@@ -270,9 +272,13 @@
                 boton2.style.display = "none"
             }
 
-            function menudesp() {
-                var menu = document.getElementById("menumovil")
-                menumovil.style.display = "inline-block";
+            function desplegar() {
+                var menu = document.getElementById('menu');
+                if (menu.style.display === 'none') {
+                    menu.style.display = 'inline-block';
+                } else {
+                    menu.style.display = 'none';
+                }
             }
         </script>
 

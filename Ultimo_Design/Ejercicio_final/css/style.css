@@ -10,7 +10,9 @@
 /* Para que le aplique box-sizing border-box a todos los elementos de la página */
 
 body {
+    background-color: burlywood;
     background-image: url(../images/Background.jpg);
+    margin: 0em;
 }
 
 header {
@@ -34,8 +36,8 @@ div#cuerpo {
     margin-right: 2%;
     width: 65%;
     float: left;
-    padding: 0.4em;
-    margin-bottom: 6%;
+    padding: 0.4%;
+    margin-bottom: 10%;
 }
 
 div article {
@@ -51,12 +53,12 @@ aside {
     right: 0em;
     overflow-x: auto;
     border-style: solid;
-    margin: 1% 1% 6% 1%;
-    padding: 0.4em;
+    margin: 1% 1% 10% 1%;
+    padding: 0.4%;
 }
 
 img {
-    max-width: 80%;
+    max-width: 90%;
     border-style: solid;
 }
 
@@ -64,7 +66,7 @@ div#botones {
     width: 65%;
     float: left;
     clear: left;
-    margin-bottom: 3em;
+    margin-bottom: 5%;
 }
 
 div#botones ul li {
@@ -89,7 +91,7 @@ footer {
     display: none
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 768px) {
     h1 {
         font-size: 1.5em
     }
@@ -98,6 +100,9 @@ footer {
     }
     h3 {
         font-size: 1.2em
+    }
+    div#contenido {
+        margin: 0.5em auto
     }
     div#cuerpo {
         width: 95%;
@@ -128,10 +133,16 @@ footer {
     nav ul {
         display: none
     }
+    div#botones {
+        margin-bottom: 4em;
+    }
     footer {
         font-size: 0.5em;
     }
     .movil {
         display: inline
+    }
+    img {
+        max-width: 70%;
     }
 }
