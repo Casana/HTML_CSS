@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!--Selector del conjunto de caracteres-->
+    <meta charset="UTF-8">
+    <!--Título del documento: Accesibilidad y SEO-->
+    <title> Encuesta vacaciones </title>
+    <!--Metadatos descriptivos-->
+    <meta name="author" content="Carlos Martinez">
+    <meta name="description" content="ejercicio dieciseis de HTML5">
+    <meta name="keywords" content="web, learning, html5, css3">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="application-name" content="…">
+    <!--Definición del viewport : RWD y Mobile...-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Definición del favicon o icono de la página...-->
+    <link rel="shortcut icon" href="../fav_icon.png">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap1.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <style>
+        table {
+            border-radius: 8px;
+            border-spacing: 10px;
+            border-collapse: collapse
+        }
+        
+        tr>th {
+            background-color: khaki
+        }
+        
+        tr>td {
+            background-color: cornflowerblue
+        }
+        
+        table:hover {
+            border-collapse: separate;
+            border-spacing: 1px;
+            font-weight: bold
+        }
+        
+        td:hover {
+            background-color: white
+        }
+        
+        img {
+            width: 60%;
+            height: 40%;
+            margin: 4%
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <header class="well">
+        <h1> Ejemplo de tabla con bootstrap </h1>
+    </header>
+
+    <div class="row table-responsive col-sm-10 col-sm-offset-1">
+        <table class="table table-striped" border="5">
+            <tr>
+                <th scope="colgroup rowgroup" colspan="2" rowspan="2">Resultados de la encuesta</th>
+                <th scope="colgroup" colspan="3">Edad</th>
+            </tr>
+            <tr>
+                <th>12 a 25</th>
+                <th>26 a 40</th>
+                <th>Más de 40</th>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">¿Cual es tu destino preferido para las vacaciones?</th>
+                <th>Disney-Paris</th>
+                <td>25%</td>
+                <td>50%</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <th>El Caribe</th>
+                <td>25%</td>
+                <td>50%</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <th>Europa</th>
+                <td>25%</td>
+                <td>50%</td>
+                <td>25%</td>
+            </tr>
+        </table>
+    </div>
+    <aside class="col-sm-8 col-sm-offset-2">
+        <figure class="col-xs-4">
+            <img src="images/caribe.jpg" alt="caribe" class="img-rounded img-thumbnail">
+        </figure>
+        <figure class="col-xs-4">
+            <img src="images/disney.jpg" alt="disney" class="img-rounded">
+        </figure>
+        <figure class="col-xs-4">
+            <img src="images/europa.png" alt="europa" class="img-circle">
+        </figure>
+    </aside>
+</body>
+
+</html>
